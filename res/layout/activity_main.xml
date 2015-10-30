@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.example.clickwavedemo.ClickWaveButton1
+        android:id="@+id/myBtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/bottom_bg"
+        android:scaleType="center"
+        android:text="btn1" />
+
+    <com.example.clickwavedemo.MyClickWaveButton2
+        android:layout_below="@+id/myBtn"
+        android:id="@+id/myBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/bottom_bg2"
+        android:scaleType="center"
+        android:text="btn2" />
+
+</RelativeLayout>
